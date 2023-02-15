@@ -1,0 +1,35 @@
+.note {
+    width:100%;
+    min-height: 180px;
+    background-color: #2E4057;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    padding: 1rem 1.4rem;
+    border-radius: 20px;
+    padding-bottom: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.note-title {
+    font-weight: 900;
+    font-size: 1.5rem;
+    line-height: 1.2;
+}
+
+.note-body {
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.note:hover {
+    background-color: #374c68;
+}
+
+.note-footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+}
