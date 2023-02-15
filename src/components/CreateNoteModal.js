@@ -10,10 +10,11 @@ import {
 import React from "react";
 import axios from "axios";
 
+
 import { FormControl, FormLabel, Input, Textarea } from "@chakra-ui/react";
 
 function CreateNoteModal(modalProps) {
-    const apiURL = process.env.API_URL || 'http://localhost:5000';
+    const apiURL = process.env.REACT_APP_API_URL || 'http://localhost:5000';
     const [newNoteTitle, setNewNoteTitle] = React.useState("");
     const [newNoteText, setNewNoteText] = React.useState("");
 

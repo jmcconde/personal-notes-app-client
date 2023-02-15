@@ -8,10 +8,10 @@ import EditNoteModal from "./components/EditNoteModal";
 import NavBarContainer from "./components/Navbar";
 import Note from "./components/Note";
 import { auth } from "./firebase/firebase";
-import { FcGoogle } from "react-icons/fc";
+import { FcGoogle } from "react-icons/fc"; 
 
 function App() {
-    const apiURL = process.env.API_URL || 'http://localhost:5000';
+    const apiURL = process.env.REACT_APP_API_URL || 'http://localhost:5000';
     const [notes, setNotes] = React.useState();
     const [isLoggedIn, setIsLoggedIn] = React.useState(false);
     const [user, setUser] = React.useState();
