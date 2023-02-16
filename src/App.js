@@ -72,9 +72,7 @@ function App() {
                 Authorization: `Bearer ${tokenState}`,
             },
         });
-        console.log(res.data);
         setNotes(res.data);
-        console.log(notes);
     };
 
     return (
