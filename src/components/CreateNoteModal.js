@@ -66,7 +66,7 @@ function CreateNoteModal(modalProps) {
                 <ModalHeader>Create New Note</ModalHeader>
                 <ModalCloseButton />
                 <ModalBody>
-                    <form onSubmit={onSubmit}>
+                    <form onSubmit={onSubmit} autoComplete="off">
                         <FormControl>
                             <FormLabel>Note Title</FormLabel>
                             <Input

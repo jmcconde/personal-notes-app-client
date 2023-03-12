@@ -99,7 +99,7 @@ function EditNoteModal(modalProps) {
                 <ModalHeader>Edit Note</ModalHeader>
                 <ModalCloseButton />
                 <ModalBody>
-                    <form onSubmit={onSubmit}>
+                    <form onSubmit={onSubmit} autoComplete="off">
                         <FormControl>
                             <FormLabel>Note Title</FormLabel>
                             <Input
