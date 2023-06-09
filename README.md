@@ -5,7 +5,7 @@ Built with React, Chakra UI, Node.js, Axios, and Firebase.
 ## Description
 Frontend of a personal notes web app, built with React and Node.js.  
 Allows for user authentication using Google OAuth and Firebase.  
-Makes requests to the backend server of the app using HTTP GET, POST and PUT methods.  
+Makes requests to the backend server of the app using HTTP GET, POST, PUT and DELETE methods.  
 Users are allowed to create, edit and delete personal notes.  
 
 ## Screenshots
